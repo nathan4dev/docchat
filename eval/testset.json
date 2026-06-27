@@ -1,0 +1,77 @@
+[
+  {
+    "question": "Who founded AuroraByte and when?",
+    "expected_answer": "AuroraByte was founded in 2014 by Maya Chen and Devon Okafor.",
+    "expected_source": "aurorabyte.md"
+  },
+  {
+    "question": "What is AuroraByte's flagship product called?",
+    "expected_answer": "PulseGrid",
+    "expected_source": "aurorabyte.md"
+  },
+  {
+    "question": "When was PulseGrid first released?",
+    "expected_answer": "PulseGrid was first publicly released in March 2017.",
+    "expected_source": "aurorabyte.md"
+  },
+  {
+    "question": "Has AuroraByte raised venture funding?",
+    "expected_answer": "No, AuroraByte has never raised venture funding and has been profitable since its second year.",
+    "expected_source": "aurorabyte.md"
+  },
+  {
+    "question": "Where is AuroraByte headquartered?",
+    "expected_answer": "In a converted warehouse in Portland's Central Eastside Industrial District.",
+    "expected_source": "aurorabyte.md"
+  },
+  {
+    "question": "How much does the PulseGrid Growth plan cost per month?",
+    "expected_answer": "The Growth plan costs $499 per month.",
+    "expected_source": "pulsegrid_pricing.md"
+  },
+  {
+    "question": "How many monitored services does the Starter plan support?",
+    "expected_answer": "The Starter plan supports up to 10 monitored services.",
+    "expected_source": "pulsegrid_pricing.md"
+  },
+  {
+    "question": "Does PulseGrid require a credit card for the free trial?",
+    "expected_answer": "No, the 14-day free trial requires no credit card.",
+    "expected_source": "pulsegrid_pricing.md"
+  },
+  {
+    "question": "What is the cap on historical data backfills during onboarding?",
+    "expected_answer": "Historical backfills are capped at 90 days regardless of plan tier.",
+    "expected_source": "pulsegrid_pricing.md"
+  },
+  {
+    "question": "Which plan includes single sign-on and a dedicated customer success engineer?",
+    "expected_answer": "The Enterprise plan includes single sign-on and a dedicated customer success engineer.",
+    "expected_source": "pulsegrid_pricing.md"
+  },
+  {
+    "question": "How quickly must a SEV1 incident be acknowledged?",
+    "expected_answer": "A SEV1 incident must be acknowledged within 5 minutes.",
+    "expected_source": "incident_policy.txt"
+  },
+  {
+    "question": "How many engineers are in the on-call rotation, and how often does each one serve?",
+    "expected_answer": "Six engineers, each serving a one-week shift no more than once every six weeks.",
+    "expected_source": "incident_policy.txt"
+  },
+  {
+    "question": "Why was the six-week minimum gap between on-call shifts introduced?",
+    "expected_answer": "It was introduced in 2021 after back-to-back on-call weeks led to two engineer resignations.",
+    "expected_source": "incident_policy.txt"
+  },
+  {
+    "question": "Are postmortems allowed to name individual engineers as the cause of an incident?",
+    "expected_answer": "No, postmortems are blameless by policy and may not name individual engineers.",
+    "expected_source": "incident_policy.txt"
+  },
+  {
+    "question": "Why is AuroraByte's status page hosted independently of PulseGrid's infrastructure?",
+    "expected_answer": "So that a PulseGrid outage cannot also take down the status page customers check during that outage.",
+    "expected_source": "incident_policy.txt"
+  }
+]

@@ -4,8 +4,6 @@ __pycache__/
 venv/
 .env
 *.sqlite3
-.chroma/
-data/*
-!data/.gitkeep
+chroma_db/
 .DS_Store
 .ipynb_checkpoints/

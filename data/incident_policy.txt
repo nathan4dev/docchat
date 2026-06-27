@@ -1,0 +1,12 @@
+AuroraByte Incident Response Policy (internal reference, fictional)
+
+Severity levels:
+- SEV1: Full outage of PulseGrid's ingestion pipeline or dashboard for all customers. Must be acknowledged within 5 minutes and a status page update posted within 15 minutes.
+- SEV2: Degraded performance or an outage affecting a subset of customers. Must be acknowledged within 15 minutes.
+- SEV3: Minor bugs or cosmetic issues with no customer-facing impact on data accuracy. Handled during normal business hours.
+
+The on-call rotation consists of six engineers, each serving a one-week shift. No engineer may be on call more than once every six weeks, a rule introduced in 2021 after a string of back-to-back on-call weeks led to two engineer resignations.
+
+Every SEV1 incident requires a postmortem published within 5 business days. Postmortems are blameless by policy: they may not name individual engineers as the cause of an incident, only describe the contributing systems and process gaps.
+
+AuroraByte's status page is hosted independently of PulseGrid's own infrastructure, specifically so that a PulseGrid outage cannot also take down the page customers check during that outage.
